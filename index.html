@@ -3,31 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Testing</title>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <!-- comment is ctrl+slash -->
+    <div class="glass-container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form action="#" method="POST">
 
-    <h1>Testing</h1>
+                <input type="text" id="username" name="username" required placeholder="Username">
+                
+                <input type="password" id="password" name="password" required placeholder="Password">
+                
+                <div class="options">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                
+                <button type="submit">Login</button>
 
-    
-    
-    <h2>freddy fazbears pizzeria</h2>
-    <p>go eat some of freddy fazbears pizzas</p> 
-    <a href="https://www.youtube.com/watch?v=PNPTmAc9-Xs&ab_channel=TehRookie" target="_blank">
-        <button id="claim">click this button to go to a special video (recommended to watch on 0.25x speed and max volume)</button>
-    </a>
- 
-    
-   
-
-    <!-- <div class="logIn">
-        <input type="text" id="usernameInput" placeholder="nah id win">
-   
-        <a id="testing">Testing</a>
+                <p>Don't have an account? <a href="#" id="register">Register</a></p>
+            </form>
+        </div>
     </div>
-
 </body>
-<script src="app.js"></script>
-</html> -->
+</html>
